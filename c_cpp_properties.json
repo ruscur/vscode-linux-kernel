@@ -4,7 +4,19 @@
             "name": "Linux",
             "cStandard": "c11",
             "intelliSenseMode": "gcc-x64",
-            "compileCommands": "${workspaceFolder}/compile_commands.json"
+            "compileCommands": "${workspaceFolder}/compile_commands.json",
+            "includePath": [
+                "${workspaceFolder}/arch/powerpc/include",
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/include/asm-generic",
+                "${workspaceFolder}/arch/powerpc/include/generated",
+                "${workspaceFolder}/include/uapi"
+            ],
+            "defines": [
+                "__GNUC__",
+                "__KERNEL__"
+            ],
+            "compilerPath": "/usr/bin/powerpc64le-linux-gnu-gcc"
         }
     ],
     "version": 4

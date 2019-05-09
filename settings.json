@@ -2,11 +2,16 @@
     "files.exclude": {
         "**/.*.*.cmd": true,
         "**/.*.d": true,
-        "**/.*.S": true
+        "**/.*.S": true,
+        "**/*.o": true,
+        "**/*.a": true
     },
     "[c]": {
         "editor.detectIndentation": false,
         "editor.tabSize": 8,
         "editor.insertSpaces": false
+    },
+    "files.associations": {
+        "*.h": "c",
     }
 }
